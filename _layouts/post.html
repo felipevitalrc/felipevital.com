@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article>
+
+  <div class="center">
+    <h1 class="title">{{ page.title }}</h1>
+    <time class="code">{{ page.date | date: '%B %-d, %Y' | downcase }}</time>
+  </div>
+
+  <div class="divider"></div>
+
+  {{ content }}
+
+</article>
+
+<nav class="page-navigation code">
+  {% if page.next.url %}
+    <a class="prev" href="{{ page.next.url | relative_url }}" title="prev: {{ page.next.title }}">&gt;&gt;</a>
+    <span> &middot; </span>
+  {% endif %}
+  <a class="home" href="{{ '/' | relative_url }}" title="back to index">index</a>
+  {% if page.previous.url %}
+    <span> &middot; </span>
+    <a class="next" href="{{ page.previous.url | relative_url }}" title="next: {{ page.previous.title }}">&lt;&lt;</a>
+  {% endif %}
+</nav>

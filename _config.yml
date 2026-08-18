@@ -1,0 +1,42 @@
+# site info
+title:              "felipe vital"
+description:        "lifestyle | tecnologia | dados | rolês"
+author_name:        "felipe vital"
+
+# site settings
+url:                https://felipevital.com
+baseurl:            ""
+permalink:          /:title.html
+timezone:           America/Sao_Paulo
+
+# site build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+    smart_quotes:   ["apos", "apos", "quot", "quot"]
+
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "Gemfile", "Gemfile.lock", "sources", "vendor", "*.gemspec" ]
+
+plugins:
+  - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
+      permalink:    "/posts/:title.html"
+      og_type:      "article"

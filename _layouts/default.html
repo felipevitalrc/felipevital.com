@@ -1,0 +1,23 @@
+---
+layout: compress
+published: true
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+{% include head.html %}
+</head>
+<body>
+
+{% include header.html %}
+
+<main id="content">
+{{ content }}
+</main>
+
+{% include footer.html %}
+
+<script src="{{ '/assets/theme.js' | relative_url }}"></script>
+</body>
+</html>

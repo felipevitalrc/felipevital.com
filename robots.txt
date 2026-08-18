@@ -1,0 +1,4 @@
+sitemap: https://felipevital.com/sitemap.xml
+
+user-agent: *
+disallow:
