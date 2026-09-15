@@ -7,7 +7,7 @@ description: 'a bit about felipe vital: technology, data, travel, coffee and cor
 
 oi, eu sou o felipe (ou o vital, como preferir)!
 
-eu gosto e trabalho com tecnologia e dados. gosto de viajar com a minha esposa, tomar uns cafezinhos especiais, de dias fechados, praticar artes marciais e sofrer pelo corinthians, hehe.
+eu gosto e trabalho com tecnologia e dados. gosto de viajar com a minha esposa, tomar uns cafezinhos especiais, de dias fechados (às vezes), praticar artes marciais e sofrer pelo corinthians, hehe.
 
 👨‍💻🛫☕️🌫️🥊🥋🦅
 
