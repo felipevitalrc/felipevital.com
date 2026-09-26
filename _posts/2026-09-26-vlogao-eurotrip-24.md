@@ -1,5 +1,5 @@
 ---
-title: vlogão eurotrip 2024: berlim | praga | budapeste
+title: 'vlogão eurotrip 2024: berlim | praga | budapeste'
 description: meu primeiro vlog de viagem
 ---
 
